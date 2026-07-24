@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Caveat);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.heading {
+    text-align: center;
+    font-size: 55px;
+    margin: 20px auto;
+    font-family: "Caveat", cursive;
+    font-weight: 900;
+    font-size: 65px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 20px;
+    margin: 50px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    transition: transform .2s;
+    text-align: center;
+}
+
+div img {
+    width: 350px;
+    height: 500px;
+}
+
+p,
+li,
+h2 {
+    font-family: "Ubuntu", serif;
+    font-size: 18px;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.subheader {
+    max-width: 750px;
+    text-align: center;
+    font-size: 16px;
+    margin: -15px auto 40px auto;
+}
+
+.intro,
+.ingredients {
+    display:flex;
+    margin: auto 60px;
+}
+
+.intro {
+    background: linear-gradient(to right, #f0ebe0, transparent);
+}
+
+.steps {
+    display:flex;
+    margin: 20px 60px;
+    padding: 10px;
+    background: linear-gradient(to right, transparent, #f0ebe0);    
+}
